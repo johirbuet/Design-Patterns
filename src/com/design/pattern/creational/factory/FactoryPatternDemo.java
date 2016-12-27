@@ -2,6 +2,11 @@ package com.design.pattern.creational.factory;
 
 public class FactoryPatternDemo {
 
+	/**
+	 * In Factory pattern, we create object without exposing the creation logic to the 
+	 * client and refer to newly created object using a common interface.
+	 * @param args
+	 */
 	   public static void main(String[] args) {
 	      ShapeFactory shapeFactory = new ShapeFactory();
 
